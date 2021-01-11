@@ -14,7 +14,7 @@ sbt 'set scalaVersion := "2.13.4"' 'set scalacOptions in ThisBuild ++= Seq("-Yde
 ```
 javap
 ```
-javap -constants -c -cp target/scala-2.13/classes "Test$"
+javap -constants -c -cp target/scala-2.13/classes "AlwaysTrueIf$"
 ```
 
 ## Customized Scala Compiler
